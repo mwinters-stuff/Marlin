@@ -477,7 +477,7 @@
 /**
  * M355 Case Light on-off / brightness
  */
-#define CASE_LIGHT_ENABLE
+//#define CASE_LIGHT_ENABLE
 #if ENABLED(CASE_LIGHT_ENABLE)
   #define CASE_LIGHT_PIN P1_26                    // Override the default pin if needed
   #define INVERT_CASE_LIGHT false             // Set true if Case Light is ON when pin is LOW
@@ -495,7 +495,7 @@
 // @section homing
 
 // If you want endstops to stay on (by default) even when not homing
-// enable this option. Override at any time with M120, M121.
+// enable this option. Override at any time with M120, M121.  
 //#define ENDSTOPS_ALWAYS_ON_DEFAULT
 
 // @section extras
