@@ -1678,14 +1678,14 @@
 
 #if ENABLED(NOZZLE_CLEAN_FEATURE)
   // Default number of pattern repetitions
-  #define NOZZLE_CLEAN_STROKES  2
+  #define NOZZLE_CLEAN_STROKES  3
 
   // Default number of triangles
   #define NOZZLE_CLEAN_TRIANGLES  3
 
   // Specify positions for each tool as { { X, Y, Z }, { X, Y, Z } }
   // Dual hotend system may use { {  -20, (Y_BED_SIZE / 2), (Z_MIN_POS + 1) },  {  420, (Y_BED_SIZE / 2), (Z_MIN_POS + 1) }}
-  #define NOZZLE_CLEAN_START_POINT { 240, 30, (Z_MIN_POS + 1) }
+  #define NOZZLE_CLEAN_START_POINT { 230, 30, (Z_MIN_POS + 1) }
   #define NOZZLE_CLEAN_END_POINT   { 253, 30, (Z_MIN_POS + 1) }
 
   // Circular pattern radius
